@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>index</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="jquery.bxslider.min.js"></script>
+    <link href="jquery.bxslider.css" rel="stylesheet" />
+    <script type="text/javascript">
+        $(document).ready(function(){    
+            $('.slider').bxSlider({
+                minSlides: 2,
+                maxSlides: 3,
+                slideWidth: 600,
+                slideMargin: 5,
+                captions: false,
+                infineteLoop: true,
+                pager: false,
+                controls: true,
+                auto: true,
+                speed: 1000
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>WELCOME</h1>
+    <ul class="slider">
+        <li><img src="image/a1.jpg" title="" /></li>
+        <li><img src="image/a2.jpg" title="" /></li>
+        <li><img src="image/a3.jpg" title=""/></li>
+        <li><img src="image/a4.jpg" title="" /></li>
+        <li><img src="image/a5.jpg" title="" /></li>
+    </ul>
+    <p>WELCOME</p>
+</body>
+</html>
